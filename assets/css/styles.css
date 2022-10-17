@@ -164,11 +164,11 @@ body.dark-theme {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../img/my-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.profile__perfil img {
-  width: 75px;
-}
 
 .profile__border {
   border: 3.5px solid var(--first-color);
@@ -182,11 +182,11 @@ body.dark-theme {
 }
 
 .profile__name {
-  font-size: var(--h2-font-size);
+  font-size: var(--h4-font-size);
 }
 
 .profile__profession {
-  font-size: var(--smaller-font-size);
+  font-size: var(--h2-font-size);
   font-weight: 500;
   color: var(--text-color);
   margin-bottom: 1rem;
